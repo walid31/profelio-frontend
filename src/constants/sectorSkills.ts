@@ -1,0 +1,140 @@
+
+// Define skills by sector
+export const SKILLS_BY_SECTOR = {
+  photographe: [
+    "Photographie de portrait",
+    "Photographie de mariage",
+    "Photographie de produit",
+    "Retouche photo",
+    "Photographie de paysage",
+    "Photographie d'événements",
+    "Photographie d'architecture",
+    "Photographie culinaire",
+    "Photographie de mode",
+    "Éclairage studio",
+    "Photographie aérienne",
+    "Post-production",
+  ],
+  developpeur: [
+    "JavaScript",
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Python",
+    "Java",
+    "C#",
+    "PHP",
+    "Ruby",
+    "Swift",
+    "Kotlin",
+    "AWS",
+    "Docker",
+    "CI/CD",
+    "Git",
+  ],
+  medecin: [
+    "Médecine générale",
+    "Cardiologie",
+    "Dermatologie",
+    "Pédiatrie",
+    "Neurologie",
+    "Psychiatrie",
+    "Radiologie",
+    "Chirurgie",
+    "Anesthésiologie",
+    "Gynécologie",
+    "Ophtalmologie",
+  ],
+  avocat: [
+    "Droit des affaires",
+    "Droit pénal",
+    "Droit de la famille",
+    "Droit immobilier",
+    "Droit du travail",
+    "Droit fiscal",
+    "Droit de la propriété intellectuelle",
+    "Droit international",
+    "Droit des contrats",
+    "Médiation",
+  ],
+  architecte: [
+    "Conception architecturale",
+    "Dessin technique",
+    "Modélisation 3D",
+    "AutoCAD",
+    "Revit",
+    "SketchUp",
+    "Gestion de projet",
+    "Architecture durable",
+    "Architecture d'intérieur",
+    "Rénovation",
+    "Architecture paysagère",
+  ],
+  consultant: [
+    "Analyse stratégique",
+    "Gestion de projet",
+    "Analyse financière",
+    "Transformation digitale",
+    "Gestion du changement",
+    "Business intelligence",
+    "Marketing stratégique",
+    "Développement organisationnel",
+    "Optimisation des processus",
+    "Conseil en ressources humaines",
+  ],
+  professeur: [
+    "Pédagogie",
+    "Conception de cours",
+    "Évaluation",
+    "Gestion de classe",
+    "Enseignement différencié",
+    "Technologies éducatives",
+    "Communication",
+    "Recherche académique",
+    "Mentorat",
+    "Formation continue",
+  ],
+  ingenieur: [
+    "Conception technique",
+    "Modélisation",
+    "Analyse de données",
+    "Gestion de projet",
+    "Programmation",
+    "CAO/DAO",
+    "Analyse de risques",
+    "Optimisation des procédés",
+    "Automatisation",
+    "Intelligence artificielle",
+    "IoT",
+    "Développement durable"
+  ],
+  autoentrepreneur: [
+    "Gestion de petite entreprise",
+    "Prospection commerciale",
+    "Marketing digital",
+    "Comptabilité de base",
+    "Facturation",
+    "Service client",
+    "Communication sur les réseaux sociaux",
+    "Gestion de projet freelance",
+    "Veille concurrentielle",
+    "Déclarations fiscales indépendant",
+    "Gestion du temps",
+    "Négociation client",
+    "Création de devis",
+    "Planification stratégique",
+    "Networking",
+    "Développement de sa marque personnelle"
+  ]
+};
+
+// Export individual sector skills for direct imports
+export const PHOTOGRAPHE_SKILLS = SKILLS_BY_SECTOR.photographe;
+export const DEVELOPPEUR_SKILLS = SKILLS_BY_SECTOR.developpeur;
+export const MEDECIN_SKILLS = SKILLS_BY_SECTOR.medecin;
+export const AVOCAT_SKILLS = SKILLS_BY_SECTOR.avocat;
+export const ARCHITECTE_SKILLS = SKILLS_BY_SECTOR.architecte;
+export const CONSULTANT_SKILLS = SKILLS_BY_SECTOR.consultant;
+export const PROFESSEUR_SKILLS = SKILLS_BY_SECTOR.professeur;
+export const INGENIEUR_SKILLS = SKILLS_BY_SECTOR.ingenieur;
+export const AUTOENTREPRENEUR_SKILLS = SKILLS_BY_SECTOR.autoentrepreneur;
